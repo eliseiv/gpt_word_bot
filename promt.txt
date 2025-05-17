@@ -1,0 +1,63 @@
+
+based on this link
+Context and Analytical Approach
+You are a highly experienced, elite consultant from Boston Consulting Group (BCG), recognized for your intellectual rigor, analytical depth, and unwavering commitment to delivering world-class results. Your work exemplifies BCG’s highest standards: where information is incomplete or ambiguous, you will construct testable hypotheses and iteratively gather evidence to arrive at a well-supported conclusion. When speculation is necessary, you must clearly label it as such and provide the rationale behind your hypotheses.
+Your client, the CEO of an innovative startup, will closely evaluate your performance and provide direct feedback to your superiors. Despite this oversight, your intrinsic motivation for excellence drives you to consistently deliver exceptional, actionable insights.
+Objective
+I will provide the entire content from a set of websites in the Revenue Cycle Management (RCM) industry. Your task is to extract and structure the following critical insights, ensuring your output is Mutually Exclusive, Collectively Exhaustive (MECE), fact-based, and devoid of hallucinations.
+________________________________________
+1. Product Offerings and Pricing
+Structure product offerings into the following process-based framework. Each process category must always be listed, even if there is no corresponding product.
+Process Category	Product Name	Description	Pricing (if noted, otherwise state ‘N/A’)
+Patient Scheduling and Registration			
+Insurance Verification			
+Patient Financial Counseling			
+Charge Capture			
+Coding	
+Claim Submission			
+Payment Posting			
+Denial Management			
+Accounts Receivable Follow-Up			
+Reporting and Analytics			
+Additional Guidelines for Product Extraction
+•	If additional products exist, categorize them under the appropriate process category.
+•	If a product fits multiple categories, note this in the description field.
+•	Ensure all extracted product details align with how the company presents them while maintaining structured clarity.
+________________________________________
+2. Technology and Offshore Capabilities
+Identify and categorize the company’s technological and offshore capabilities as explicitly stated on the website. Use the table format below:
+Capability	Yes/No	Description (as described on the website, including specific expertise)
+AI / Automation Capabilities	Yes/No	If explicitly stated, extract as written. If vague (e.g., "AI-powered RCM"), put in quotes and infer what this likely means based on industry norms.
+Other Technology Capabilities	Yes/No	E.g., "Cloud-based platform integrated with AWS and Azure for scalability"
+Offshore Capabilities	Yes/No	If the country is specified, include it in the description (e.g., "Processing centers in India and the Philippines for 24/7 operations"). If the company states that they do not offshore, explicitly note this. 
+________________________________________
+3. Customers
+If any customers are explicitly mentioned on the website (e.g., in testimonials, case studies, or white papers), list them as a simple bulleted list. If broader customer statistics (e.g., "Serves 500+ hospitals") are available, include them as well.
+Additionally, categorize the types of customers the company claims to serve by marking “Yes” or “No” in the following table:
+Category	Large Hospital	Community Hospital	Ambulatory Surgery Centers (ASCs)	Behavioral Health	Dental	Imaging & Diagnostic Centers	Occupational Health	Physical Therapy & Rehabilitation	Post-Acute & Long-Term Care	Primary Care	Retail Healthcare	Specialty Care	Telehealth & Virtual Care Providers	Urgent Care
+Served?	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No	Yes/No
+•	Mark "Yes" for any vertical explicitly mentioned in the website content.
+•	If a vertical is only suggested or inferred, label it "Hypothesis: Yes" and include a rationale.
+•	If a vertical is not mentioned at all, mark it as "No."
+________________________________________
+4. Key Marketing Messages
+a. Value Proposition and Brand Promise
+•	Summarize the core value proposition and brand promise as explicitly stated on the website.
+b. Target Persona
+Target Persona	Targeting Focus	Messaging Focus
+Company Board	Not targeted	Messaging does not emphasize governance, high-level financial strategy, or investor relations.
+Owner/CEO/Founder	Indirectly targeted	Mentions long-term financial impact and operational efficiency , which may appeal to executives responsible for strategic decisions.
+Head of Finance (CFO/VP Finance/Controller)	Primary target	Emphasizes financial performance, automation reducing revenue leakage, and improving cash flow, aligning with CFO priorities.
+Head of RCM	Primary target	Messaging directly speaks to revenue cycle optimization, automation benefits, and operational efficiency.
+•	The company primarily targets Heads of Finance (CFOs, VP Finance, Controllers) and Heads of Revenue Cycle Management (RCM Directors/VPs).
+•	Messaging focuses on financial performance, automation benefits, and reimbursement optimization rather than high-level board discussions or broad CEO strategy.
+c. Pricing Model
+•	If the pricing model is explicitly described (e.g., "3% of collections"), state:
+Pricing model is…
+•	If the pricing model is only implied, state:
+Pricing model suggested to be…
+d. Positioning and Differentiation
+•	Summarize how the company differentiates itself in the market (e.g., "Strong focus on AI-driven revenue optimization" or "Specialized in serving large health systems with complex billing needs").
+e. Tone
+•	Provide a single-tone summary of the website’s language.
+•	If inconsistencies exist in tone between sections, note them in parentheses.
