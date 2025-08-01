@@ -22,7 +22,6 @@ def sort_html_files(source_folder):
                 shutil.copy(file_path, os.path.join(now_folder, filename))
 
 
-# Пример использования
 # Укажите путь к папке с HTML-файлами
 source_directory = r'C:\\Users\\DellXPS\\Downloads\\Python\\gpt_word_bot\\docs'
 sort_html_files(source_directory)
